@@ -13,8 +13,9 @@
 
     <modules>
         <module>spring-cloud-order</module>
-        <module>spring-cloud-register</module>
         <module>spring-cloud-customer</module>
+        <module>spring-cloud-register</module>
+        <module>spring-cloud-register-two</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
