@@ -1,0 +1,18 @@
+spring:
+  profiles: peer2Profile
+  application:
+    name: Eureka-Server
+server:
+  port: 1112
+
+# 注意配置 serviceUrl defaultZone 用驼峰，不能用 service-url  default-zone
+eureka:
+  instance:
+    prefer-ip-address: false
+    hostname: peer2
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:1111/eureka/
+    register-with-eureka: true
+    fetch-registry: true
+

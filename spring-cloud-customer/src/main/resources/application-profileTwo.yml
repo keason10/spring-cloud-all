@@ -1,0 +1,12 @@
+spring:
+  profiles: profileTwo
+  application:
+    name: "cloud-customer-service"
+server:
+  port: 8012
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:1111/eureka/,http://peer2:1112/eureka/
+

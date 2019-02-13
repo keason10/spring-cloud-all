@@ -1,0 +1,20 @@
+spring:
+  profiles: peer1Profile
+  application:
+    name: Eureka-Server
+server:
+  port: 1111
+
+# 配置集群需出现问题及注意事项
+# 问题 unavailable-replicas 出现   a，Eureka集群的spring.application.name 要一样。  b,集群的 fetch-registry 和 register-with-eureka属性要设置为true,注意properties属性覆盖问题
+# 1、fetch-registry：表示是否从eureka server获取注册信息，如果是单一节点，不需要同步其他eureka server节点，则可以设置为false，但此处为集群，应该设置为true，默认为true，可不设置。
+# 2、register-with-eureka：表示是否将自己注册到eureka server，因为要构建集群环境，需要将自己注册到及群众，所以应该开启。默认为true，可不显式设置。
+eureka:
+  instance:
+    prefer-ip-address: false
+    hostname: peer1
+  client:
+    serviceUrl:
+      defaultZone: http://peer2:1112/eureka/
+    register-with-eureka: true
+    fetch-registry: true
