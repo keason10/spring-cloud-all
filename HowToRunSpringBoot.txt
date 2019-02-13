@@ -1,6 +1,11 @@
+因为实在一台机器上实验，所以修改host文件（windows系统下、C:\Windows\System32\drivers\etc）
+127.0.0.1       peer1
+127.0.0.1       peer2
+
 1,IDEA 自带工具RUN
 
 2. 切换到项目目录，mvn spring-boot:run
+   mvn 只能带profile的参数  mvn spring-boot:run -Dspring-boot.run.profiles=test
 
 3.  mvn install
     java -jar hello-0.0.1-SNAPSHOT.jar  -git-server.port=8888

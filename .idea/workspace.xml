@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="beb8b36f-9b3a-45e4-b7d1-bae31c8bf233" name="Default" comment="" />
+    <list default="true" id="beb8b36f-9b3a-45e4-b7d1-bae31c8bf233" name="Default" comment="负载均衡测试">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HowToRunSpringBoot.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HowToRunSpringBoot.txt" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/spring-cloud-eureka/target/" />
     <ignored path="$PROJECT_DIR$/spring-client-order/target/" />
@@ -33,23 +37,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="application-peer2Profile.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-register-two/src/main/resources/application-peer2Profile.yml">
+      <file leaf-file-name="CustomerController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-customer/src/main/java/com/example/customer/CustomerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="114">
+              <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomerController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-customer/src/main/java/com/example/customer/CustomerController.java">
+      <file leaf-file-name="OrderApplicationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-order/src/test/java/com/example/customer/OrderApplicationTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoApplicationTests.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-customer/src/test/java/com/example/customer/DemoApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -57,20 +70,26 @@
       <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-customer/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="38">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/OrderApplication.java">
+      <file leaf-file-name="application-profileOne.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-customer/src/main/resources/application-profileOne.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="114">
+              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application-profileTwo.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-customer/src/main/resources/application-profileTwo.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -78,33 +97,10 @@
       <file leaf-file-name="OrderController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
+            <state relative-caret-position="304">
+              <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RestTemplate.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CustomerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-customer/src/main/java/com/example/customer/CustomerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,20 +115,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HowToRunSpringBoot.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/HowToRunSpringBoot.txt">
+      <file leaf-file-name="OrderApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/OrderApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
+            <state relative-caret-position="114">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-register-two/pom.xml">
+      <file leaf-file-name="CustomerApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-customer/src/main/java/com/example/customer/CustomerApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="114">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#420#421#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -164,7 +168,6 @@
         <option value="$PROJECT_DIR$/spring-cloud-customer/src/main/java/com/example/customer/CustomerApplication.java" />
         <option value="$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/ComsummerController.java" />
         <option value="$PROJECT_DIR$/spring-cloud-register/src/main/resources/application-peer2.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-register/src/main/java/com/example/register/two/two/EurekaServiceApplication.java" />
         <option value="$PROJECT_DIR$/spring-cloud-register/src/main/java/com/example/register/EurekaServiceApplication.java" />
         <option value="$PROJECT_DIR$/spring-cloud-register/src/main/java/com/example/register/RegisterServiceApplication.java" />
@@ -175,16 +178,21 @@
         <option value="$PROJECT_DIR$/spring-cloud-customer/src/main/java/com/example/customer/HelloController.java" />
         <option value="$PROJECT_DIR$/spring-cloud-register-two/README.txt" />
         <option value="$PROJECT_DIR$/spring-cloud-register/README.txt" />
-        <option value="$PROJECT_DIR$/spring-cloud-order/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-register-two/src/main/resources/application-peer2Profile.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-register/src/main/resources/application-peer1Profile.yml" />
-        <option value="$PROJECT_DIR$/spring-cloud-customer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/README.txt" />
         <option value="$PROJECT_DIR$/spring-cloud-customer/src/main/java/com/example/customer/CustomerController.java" />
         <option value="$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/OrderApplication.java" />
-        <option value="$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/OrderController.java" />
-        <option value="$PROJECT_DIR$/HowToRunSpringBoot.txt" />
         <option value="$PROJECT_DIR$/spring-cloud-register-two/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-order/src/main/resources/application-orderTwo.yml" />
+        <option value="$PROJECT_DIR$/HowToRunSpringBoot.txt" />
+        <option value="$PROJECT_DIR$/spring-cloud-register/src/main/resources/application-peer1Profile.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-order/src/main/resources/application-orderOne.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/OrderController.java" />
+        <option value="$PROJECT_DIR$/spring-cloud-order/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-customer/src/main/resources/application-profileOne.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-customer/src/main/resources/application-profileTwo.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-customer/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -203,9 +211,22 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="parent" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
@@ -221,8 +242,35 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spring-cloud-all" type="58d84e3e:PackageViewProjectNode" />
+              <item name="spring-cloud-order" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-all" type="58d84e3e:PackageViewProjectNode" />
+              <item name="spring-cloud-order" type="616d4139:PackageViewModuleNode" />
+              <item name="com.example" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-all" type="58d84e3e:PackageViewProjectNode" />
+              <item name="spring-cloud-order" type="616d4139:PackageViewModuleNode" />
+              <item name="com.example" type="1f31426a:PackageElementNode" />
+              <item name="customer" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-all" type="58d84e3e:PackageViewProjectNode" />
+              <item name="spring-cloud-order" type="616d4139:PackageViewModuleNode" />
+              <item name="com.example" type="1f31426a:PackageElementNode" />
+              <item name="order" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -235,6 +283,27 @@
               <item name="spring-cloud-all" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-all" type="462c0819:PsiDirectoryNode" />
               <item name="spring-cloud-register-two" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-all" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-register-two" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-all" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-register-two" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-all" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-all" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-register-two" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -257,14 +326,16 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\spring-cloud-all\spring-cloud-customer\src\main\resources" />
+      <recent name="D:\github\spring-cloud-all\spring-cloud-order\src\main\resources" />
+      <recent name="D:\github\spring-cloud-new" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\github\spring-cloud-all\spring-cloud-register" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\github\spring-cloud-new" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -286,7 +357,7 @@
     </option>
     <option name="contentProportion" value="0.21246612" />
   </component>
-  <component name="RunManager" selected="Spring Boot.CustomerApplication8014">
+  <component name="RunManager" selected="Spring Boot.RegisterTwoServiceApplication">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -330,17 +401,7 @@
         </option>
       </MavenSettings>
     </configuration>
-    <configuration name="CustomerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="spring-cloud-customer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.customer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.customer.CustomerApplication" />
-    </configuration>
-    <configuration name="CustomerApplication8014" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="CustomerApplicationOne" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="spring-cloud-customer" />
       <extension name="coverage">
         <pattern>
@@ -350,11 +411,20 @@
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.customer.CustomerApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <envs>
-        <env name="server.port" value="8014" />
-      </envs>
     </configuration>
-    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerApplicationTwo" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spring-cloud-customer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.customer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.customer.CustomerApplication" />
+      <option name="PROGRAM_PARAMETERS" value="--spring.profiles.active=profileTwo" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration name="OrderApplicationOne" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-cloud-order" />
       <extension name="coverage">
         <pattern>
@@ -364,20 +434,6 @@
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.order.OrderApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
-    </configuration>
-    <configuration name="OrderApplication8013" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="spring-cloud-order" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.order.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.order.OrderApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <envs>
-        <env name="server.port" value="8013" />
-      </envs>
     </configuration>
     <configuration name="RegisterServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="spring-cloud-register" />
@@ -422,20 +478,18 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.OrderApplication8013" />
-      <item itemvalue="Spring Boot.CustomerApplication8014" />
+      <item itemvalue="Spring Boot.OrderApplicationOne" />
+      <item itemvalue="Spring Boot.CustomerApplicationTwo" />
       <item itemvalue="Maven.customer [install]" />
-      <item itemvalue="Spring Boot.CustomerApplication" />
-      <item itemvalue="Spring Boot.OrderApplication" />
-      <item itemvalue="Spring Boot.RegisterTwoServiceApplication" />
+      <item itemvalue="Spring Boot.CustomerApplicationOne" />
       <item itemvalue="Spring Boot.RegisterServiceApplication" />
+      <item itemvalue="Spring Boot.RegisterTwoServiceApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.RegisterTwoServiceApplication" />
-        <item itemvalue="Spring Boot.OrderApplication" />
-        <item itemvalue="Spring Boot.CustomerApplication" />
         <item itemvalue="Spring Boot.RegisterServiceApplication" />
+        <item itemvalue="Spring Boot.CustomerApplicationOne" />
+        <item itemvalue="Spring Boot.RegisterTwoServiceApplication" />
         <item itemvalue="Maven.customer [install]" />
       </list>
     </recent_temporary>
@@ -460,7 +514,10 @@
       <workItem from="1550025192828" duration="1269000" />
       <workItem from="1550026478876" duration="859000" />
       <workItem from="1550027349825" duration="7918000" />
-      <workItem from="1550040748048" duration="294000" />
+      <workItem from="1550040748048" duration="467000" />
+      <workItem from="1550041228535" duration="122000" />
+      <workItem from="1550043630038" duration="2961000" />
+      <workItem from="1550046980005" duration="191000" />
     </task>
     <task id="LOCAL-00001" summary="单元测试初步开始完善">
       <created>1550035751012</created>
@@ -490,11 +547,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550040437965</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="git upload">
+      <created>1550041325140</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1550041325140</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12350000" />
+    <option name="totallyTimeSpent" value="15797000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,20 +588,20 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="9" weight="0.32922733" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Run Dashboard" order="14" weight="0.32922733" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32922733" />
+      <window_info anchor="bottom" id="Run Dashboard" order="14" visible="true" weight="0.4412094" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32922733" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32922733" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.32922733" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="12" visible="true" weight="0.3277405" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.3281075" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32922733" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32922733" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -559,61 +623,14 @@
     <MESSAGE value="单元测试初步开始完善" />
     <MESSAGE value="add four files" />
     <MESSAGE value="负载均衡测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="负载均衡测试" />
+    <MESSAGE value="git upload" />
+    <option name="LAST_COMMIT_MESSAGE" value="git upload" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-cloud-order/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-order/spring-cloud-order.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-customer/src/main/java/com/example/customer/CustomerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="32" lean-forward="true" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-customer/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-order/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-register/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -671,13 +688,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-register/src/main/resources/application-peer2.yml" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-register-two/spring-cloud-register-two.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -688,20 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-register-two/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-register/README.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-order/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="535">
@@ -709,13 +705,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-register/src/main/java/com/example/register/RegisterServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-register/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="535">
+          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-register-two/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-register-two/mvnw">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-register/README.txt" />
+    <entry file="file://$PROJECT_DIR$/HowToRunSpringBoot.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-register-two/src/main/java/com/example/register/two/RegisterTwoServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-register-two/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-register-two/src/main/resources/application-peer2Profile.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -728,52 +774,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-register/src/main/resources/application-peer1Profile.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+        <state relative-caret-position="190">
+          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-register/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="32" column="19" selection-start-line="32" selection-start-column="19" selection-end-line="32" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-register-two/src/main/java/com/example/register/two/RegisterTwoServiceApplication.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-register/src/main/java/com/example/register/RegisterServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.0.9.RELEASE/spring-web-5.0.9.RELEASE.jar!/org/springframework/web/client/RestTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-register-two/src/main/resources/application-peer2Profile.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-customer/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-order/src/main/resources/application-orderTwo.yml" />
     <entry file="file://$PROJECT_DIR$/spring-cloud-customer/src/main/java/com/example/customer/CustomerApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="114">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -783,13 +799,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-customer/src/test/java/com/example/customer/DemoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spring-cloud-customer/src/main/java/com/example/customer/CustomerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="114">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-order/src/test/java/com/example/customer/OrderApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/OrderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-order/src/main/resources/application-orderOne.yml" />
+    <entry file="file://$PROJECT_DIR$/spring-cloud-customer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -800,37 +858,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/OrderApplication.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-customer/src/main/resources/application-profileTwo.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="38">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/OrderController.java">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-customer/src/main/resources/application-profileOne.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HowToRunSpringBoot.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-register-two/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        <state relative-caret-position="114">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
