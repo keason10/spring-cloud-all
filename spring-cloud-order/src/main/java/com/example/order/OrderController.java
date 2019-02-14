@@ -1,14 +1,14 @@
 package com.example.order;
 
-import com.netflix.appinfo.InstanceInfo;
+import com.example.order.feign.CustomerFeignClient;
+import com.example.order.template.RestTemplateClient;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.client.ServiceInstance;
 import org.springframework.cloud.client.discovery.DiscoveryClient;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
 
 import java.util.List;
 
@@ -20,12 +20,11 @@ import java.util.List;
  */
 @RestController
 public class OrderController {
-
-    @Autowired
-    private RestTemplate restTemplate;
-
     @Autowired
     private DiscoveryClient discoveryClient;
+
+    @Autowired
+    private RestTemplateClient restTemplateClient;
 
     @Autowired
     private CustomerFeignClient customerFeignClient;
@@ -33,7 +32,7 @@ public class OrderController {
     //启动负载均衡 轮询调用customer服务
     @RequestMapping(value = "/order", method = RequestMethod.GET)
     public String helloConsummer() {
-        return restTemplate.getForEntity("http://CLOUD-CUSTOMER-SERVICE/customer", String.class).getBody();
+        return restTemplateClient.helloConsummer();
     }
 
     //FeignClient 调用
