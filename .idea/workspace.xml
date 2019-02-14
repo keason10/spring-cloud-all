@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="beb8b36f-9b3a-45e4-b7d1-bae31c8bf233" name="Default" comment="新增feign调用例子">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HowToRunSpringBoot.txt" beforeDir="false" afterPath="$PROJECT_DIR$/HowToRunSpringBoot.txt" afterDir="false" />
+    <list default="true" id="beb8b36f-9b3a-45e4-b7d1-bae31c8bf233" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-order/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-order/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-order/spring-cloud-order.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-cloud-order/spring-cloud-order.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/CustomerFeignClient.java" beforeDir="false" />
@@ -53,20 +52,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CustomerApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-cloud-customer/src/main/java/com/example/customer/CustomerApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#350#351#0" expanded="true" />
-                <element signature="e#420#421#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="OrderController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,11 +68,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HowToRunSpringBoot.txt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HowToRunSpringBoot.txt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HowToRunSpringBoot.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+            <state relative-caret-position="95">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -95,10 +80,11 @@
       <file leaf-file-name="RestTemplateClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/template/RestTemplateClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+            <state relative-caret-position="51">
+              <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#599#600#0" expanded="true" />
                 <element signature="e#629#630#0" expanded="true" />
               </folding>
             </state>
@@ -117,11 +103,20 @@
       <file leaf-file-name="CustomerFeignClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/feign/CustomerFeignClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="152">
+              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -151,8 +146,8 @@
       <file leaf-file-name="OrderApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/OrderApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#745#746#0" expanded="true" />
@@ -229,6 +224,7 @@
         <option value="$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/template/RestTemplateClient.java" />
         <option value="$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/feign/CustomerFeignClientImpl.java" />
         <option value="$PROJECT_DIR$/HowToRunSpringBoot.txt" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -595,7 +591,7 @@
       <workItem from="1550046980005" duration="191000" />
       <workItem from="1550047221728" duration="2931000" />
       <workItem from="1550050627189" duration="2042000" />
-      <workItem from="1550052688764" duration="6127000" />
+      <workItem from="1550052688764" duration="6362000" />
     </task>
     <task id="LOCAL-00001" summary="单元测试初步开始完善">
       <created>1550035751012</created>
@@ -646,11 +642,32 @@
       <option name="project" value="LOCAL" />
       <updated>1550052478472</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="对熔断的立即，并做了相应的单元测试">
+      <created>1550130375755</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1550130375755</updated>
+    </task>
+    <task id="LOCAL-00009" summary="熔断例子和单元测试。">
+      <created>1550130443088</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1550130443088</updated>
+    </task>
+    <task id="LOCAL-00010" summary="熔断例子和单元测试。">
+      <created>1550130524162</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1550130524162</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26897000" />
+    <option name="totallyTimeSpent" value="27132000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -755,7 +772,9 @@
     <MESSAGE value="git upload" />
     <MESSAGE value="负载均衡测试" />
     <MESSAGE value="新增feign调用例子" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增feign调用例子" />
+    <MESSAGE value="对熔断的立即，并做了相应的单元测试" />
+    <MESSAGE value="熔断例子和单元测试。" />
+    <option name="LAST_COMMIT_MESSAGE" value="熔断例子和单元测试。" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -941,7 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="28">
@@ -985,54 +1003,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/OrderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#745#746#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-openfeign-core/2.0.1.RELEASE/spring-cloud-openfeign-core-2.0.1.RELEASE.jar!/org/springframework/cloud/openfeign/FeignClient.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/feign/CustomerFeignClientImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-          <folding>
-            <element signature="e#135#136#0" expanded="true" />
-            <element signature="e#162#163#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/feign/CustomerFeignClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/template/RestTemplateClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="18" column="34" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#629#630#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1052,8 +1026,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HowToRunSpringBoot.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="56" selection-start-line="13" selection-start-column="56" selection-end-line="13" selection-end-column="56" />
+        <state relative-caret-position="95">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/OrderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#812#813#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/feign/CustomerFeignClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/template/RestTemplateClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="7" column="8" lean-forward="true" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#629#630#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-order/src/main/java/com/example/order/feign/CustomerFeignClientImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="e#135#136#0" expanded="true" />
+            <element signature="e#162#163#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
         </state>
       </provider>
     </entry>

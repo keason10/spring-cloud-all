@@ -19,8 +19,6 @@ gen
 .idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml
 .idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_0_1_RELEASE.xml
 spring-cloud-customer/target/
-spring-cloud-order/src/main/java/com/example/order/feign/
-spring-cloud-order/src/main/java/com/example/order/template/
 spring-cloud-order/target/
 spring-cloud-register-two/target/
 spring-cloud-register/target/
