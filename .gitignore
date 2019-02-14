@@ -1,0 +1,26 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+.gitignore
+.idea/libraries/Maven__com_fasterxml_jackson_module_jackson_module_afterburner_2_9_6.xml
+.idea/libraries/Maven__com_google_guava_guava_15_0.xml
+.idea/libraries/Maven__com_netflix_hystrix_hystrix_javanica_1_5_12.xml
+.idea/libraries/Maven__com_netflix_hystrix_hystrix_metrics_event_stream_1_5_12.xml
+.idea/libraries/Maven__com_netflix_hystrix_hystrix_serialization_1_5_12.xml
+.idea/libraries/Maven__io_reactivex_rxjava_reactive_streams_1_2_1.xml
+.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml
+.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml
+.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml
+.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_hystrix_2_0_1_RELEASE.xml
+spring-cloud-customer/target/
+spring-cloud-order/src/main/java/com/example/order/feign/
+spring-cloud-order/src/main/java/com/example/order/template/
+spring-cloud-order/target/
+spring-cloud-register-two/target/
+spring-cloud-register/target/
