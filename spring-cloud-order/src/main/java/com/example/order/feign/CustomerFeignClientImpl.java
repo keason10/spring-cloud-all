@@ -8,6 +8,5 @@ public class CustomerFeignClientImpl implements CustomerFeignClient {
     @Override
     public String index() {
         return "error CustomerFeignClient";
-
     }
 }
