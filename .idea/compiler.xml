@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-cloud-customer" />
+        <module name="spring-cloud-gateway" />
         <module name="spring-cloud-order" />
         <module name="spring-cloud-register" />
         <module name="spring-cloud-register-two" />
@@ -15,6 +16,7 @@
     <bytecodeTargetLevel>
       <module name="spring-cloud-all" target="1.8" />
       <module name="spring-cloud-customer" target="1.8" />
+      <module name="spring-cloud-gateway" target="1.8" />
       <module name="spring-cloud-order" target="1.8" />
       <module name="spring-cloud-register" target="1.8" />
       <module name="spring-cloud-register-two" target="1.8" />

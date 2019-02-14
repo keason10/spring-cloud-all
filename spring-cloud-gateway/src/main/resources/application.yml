@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: "spring-cloud-gateway"
+server:
+  port: 1121
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:1111/eureka/,http://peer2:1112/eureka/
