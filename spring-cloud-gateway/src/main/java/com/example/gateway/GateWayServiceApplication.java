@@ -1,7 +1,7 @@
 package com.example.gateway;
 
 import com.example.gateway.filter.GateWayFilter;
-import com.example.gateway.route.GateWayRouter;
+import com.example.gateway.router.GateWayRouter;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.ImportAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
