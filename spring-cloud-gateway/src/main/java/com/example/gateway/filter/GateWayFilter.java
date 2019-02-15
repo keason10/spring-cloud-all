@@ -2,8 +2,6 @@ package com.example.gateway.filter;
 
 import org.springframework.cloud.gateway.filter.GlobalFilter;
 import org.springframework.cloud.gateway.filter.ratelimit.KeyResolver;
-import org.springframework.cloud.gateway.route.RouteLocator;
-import org.springframework.cloud.gateway.route.builder.RouteLocatorBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.annotation.Order;
@@ -11,19 +9,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.server.reactive.ServerHttpRequest;
 import reactor.core.publisher.Mono;
 
-import java.security.Principal;
-
 @Configuration
-public class GateWayRouter {
-    @Bean
-    public RouteLocator routes(RouteLocatorBuilder builder) {
-        return builder.routes()
-                .route("rewrite_response_upper", r -> r.host("*.rewriteresponseupper.org")
-                        .filters(f -> f.prefixPath("/gateway")
-                                .modifyResponseBody(String.class, String.class,
-                                        (exchange, s) -> Mono.just(s.toUpperCase()))).uri("http://localhost:1121/gateway/hello/123"))
-                        .build();
-    }
+public class GateWayFilter {
 
     //代码手动在请求头中添加信息 #######################################################################################
     /*GlobalFilter 只用定义@Bean注解就可以了*/
