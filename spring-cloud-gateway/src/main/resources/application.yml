@@ -1,6 +1,39 @@
 spring:
   application:
     name: "spring-cloud-gateway"
+  cloud:
+    gateway:
+      routes:
+      #请求重定向
+      - id: host_route
+        uri: http://localhost:1121/gateway/hello/123
+        predicates:
+        - Path=/gateway/b/{hello}
+        filters:
+        # 请求响应头增加字段, 在程序里边可以解析，在浏览器里边看不到
+        - AddRequestHeader=X-Request-Foo-Property-Filter, Bar
+        # 响应头里边增加字段 在浏览器中可以看到
+        - AddResponseHeader=X-Response-Foo-Property, Bar
+        # 请求参数增加字段
+        - AddRequestParameter=foo, bar
+        - PreCheck
+        - PostCheck
+
+      - id: before_route
+        uri: http://localhost:1121/gateway/hello/234
+        predicates:
+        - Before=2012-01-20T17:42:47.789-07:00[America/Denver]
+      #TODO 需要配置redis 然后再次尝试  访问频次限制
+      - id: requestratelimiter_route
+        uri: http://localhost:1121/gateway/hello/234
+        predicates:
+        - Path=/
+        filters:
+        - name: RequestRateLimiter
+          args:
+            redis-rate-limiter.replenishRate: 10
+            redis-rate-limiter.burstCapacity: 1
+
 server:
   port: 1121
 

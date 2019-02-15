@@ -40,5 +40,11 @@
         </dependency>
         <!--报错 Consider defining a bean of type 'org.springframework.http.codec.ServerCodecConfigurer' in your configuration.-->
         <!--应为spring-cloud-starter-gateway 与 spring-boot-starter-web 冲突 -->
+
+        <!--限制请求频次-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis-reactive</artifactId>
+        </dependency>
     </dependencies>
 </project>

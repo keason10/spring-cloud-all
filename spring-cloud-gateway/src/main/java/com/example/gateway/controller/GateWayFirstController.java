@@ -2,9 +2,7 @@ package com.example.gateway.controller;
 
 import com.example.gateway.client.CustomerFeignClient;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 /*
 @RestController 的value 属性的意思：The value may indicate a suggestion for a logical component name,
@@ -18,13 +16,25 @@ public class GateWayFirstController {
     @Autowired
     private CustomerFeignClient customerFeignClient;
 
-    @GetMapping(value = "hello")
-    public String gateway() {
-        return "gateway";
+    /*
+    PathVariable : hello/{name}
+    RequestParam : hell0?foo=bar
+    */
+    @GetMapping(value = "hello/{name}")
+    public String gateway(@PathVariable(name = "name") String str, @RequestParam(value = "foo") String foo,
+                          @RequestHeader("X-Request-Foo-Property-Filter") String restStr,
+                          @RequestHeader("X-Request-Foo-Abstract-Filter") String REQUEST_HEADER_ABSTRACT_FILTER,
+                          @RequestHeader("X-Request-Foo-Global-Filter") String REQUEST_HEADER_Filter) {//,@RequestHeader("X-Request-Foo") String restStr
+        return str + "  " + foo;
     }
 
     @GetMapping(value = "/client")
     public String feignClient() {
         return customerFeignClient.index();
+    }
+
+    @PostMapping(value = "post")
+    public String post() {
+        return "post";
     }
 }
