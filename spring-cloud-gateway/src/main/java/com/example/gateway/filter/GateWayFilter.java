@@ -2,6 +2,7 @@ package com.example.gateway.filter;
 
 import org.springframework.cloud.gateway.filter.GlobalFilter;
 import org.springframework.cloud.gateway.filter.ratelimit.KeyResolver;
+import org.springframework.cloud.gateway.filter.ratelimit.RedisRateLimiter;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.core.annotation.Order;
@@ -65,6 +66,6 @@ public class GateWayFilter {
     //访问频次限制 #################################################################################
     @Bean
     KeyResolver userKeyResolver() {
-        return exchange -> Mono.just(exchange.getRequest().getQueryParams().getFirst("name"));
+        return exchange -> Mono.just(exchange.getRequest().getRemoteAddress().getHostName());
     }
 }

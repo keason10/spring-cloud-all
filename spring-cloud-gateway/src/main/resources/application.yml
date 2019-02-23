@@ -6,9 +6,9 @@ spring:
       routes:
       #请求重定向
       - id: host_route
-        uri: http://localhost:1121/gateway/hello/123
+        uri: http://localhost:1121/gateway/hello/host_route
         predicates:
-        - Path=/gateway/b/{hello}
+        - Path=/gateway/base/{hello}
         filters:
         # 请求响应头增加字段, 在程序里边可以解析，在浏览器里边看不到
         - AddRequestHeader=X-Request-Foo-Property-Filter, Bar
@@ -19,20 +19,29 @@ spring:
         - PreCheck
         - PostCheck
 
+
       - id: before_route
         uri: http://localhost:1121/gateway/hello/234
         predicates:
         - Before=2012-01-20T17:42:47.789-07:00[America/Denver]
-      #TODO 需要配置redis 然后再次尝试  访问频次限制
+
+      # gateway 的 uri 和 predicates -Path 路径一样时，会造成 测试路由问题
+      # rate-limiter 不是必须， key-resolver 是必须要配置的 请看autoConfigure 自动配置 org.springframework.cloud.gateway.config.GatewayRedisAutoConfiguration
       - id: requestratelimiter_route
-        uri: http://localhost:1121/gateway/hello/234
+        uri: http://localhost:1121/gateway/rate/requestratelimiter_route
         predicates:
-        - Path=/
+          - Path=/gateway/rate_property/{hello}
         filters:
-        - name: RequestRateLimiter
-          args:
-            redis-rate-limiter.replenishRate: 10
-            redis-rate-limiter.burstCapacity: 1
+          - name: RequestRateLimiter
+            args:
+              redis-rate-limiter.replenishRate: 30
+              redis-rate-limiter.burstCapacity: 100
+              key-resolver: "#{@userKeyResolver}"
+#              rate-limiter: "#{@redisRateLimiter}"
+  #配置redis, 默认spring  localhost:6379 如果不配置，也可以
+  redis:
+    port: 6379
+    host: 127.0.0.1
 
 server:
   port: 1121
@@ -41,3 +50,12 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://peer1:1111/eureka/,http://peer2:1112/eureka/
+logging:
+  level:
+    root: debug
+    org:
+      springframework:
+        cloud:
+          gateway: debug
+
+

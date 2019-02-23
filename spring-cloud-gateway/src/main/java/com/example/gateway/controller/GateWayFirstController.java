@@ -37,4 +37,9 @@ public class GateWayFirstController {
     public String post() {
         return "post";
     }
+
+    @GetMapping(value = "/rate/{value}")
+    public String getRate(@PathVariable(name = "value") String value) {
+        return "rate: "+value;
+    }
 }
