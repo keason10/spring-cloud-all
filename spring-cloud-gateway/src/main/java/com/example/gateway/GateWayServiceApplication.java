@@ -11,7 +11,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @SpringBootApplication
 @EnableFeignClients
 @EnableDiscoveryClient
-@ImportAutoConfiguration(classes = {GateWayRouter.class, GateWayFilter.class})
+@ImportAutoConfiguration(classes = { GateWayFilter.class})
 public class GateWayServiceApplication {
 
     public static void main(String[] args) {

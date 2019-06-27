@@ -30,7 +30,7 @@ spring:
       - id: requestratelimiter_route
         uri: http://localhost:1121/gateway/rate/requestratelimiter_route
         predicates:
-          - Path=/gateway/rate_property/{hello}
+        - Path=/gateway/rate_property/{hello}
         filters:
           - name: RequestRateLimiter
             args:
@@ -39,6 +39,12 @@ spring:
               key-resolver: "#{@userKeyResolver}"
 #              rate-limiter: "#{@redisRateLimiter}"
   #配置redis, 默认spring  localhost:6379 如果不配置，也可以
+
+#  负载均衡请求服务 http://localhost:1121/order/feign
+      - id: myRouteBl
+        uri: lb://CLOUD-ORDER-SERVICE
+        predicates:
+        - Path=/order/**
   redis:
     port: 6379
     host: 127.0.0.1

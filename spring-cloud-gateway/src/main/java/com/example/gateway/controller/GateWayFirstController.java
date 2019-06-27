@@ -42,4 +42,10 @@ public class GateWayFirstController {
     public String getRate(@PathVariable(name = "value") String value) {
         return "rate: "+value;
     }
+    @GetMapping(value = "/order/{value}")
+    public String getRateOrder(@PathVariable(name = "value") String value) {
+        return "rate: "+value;
+    }
+
+
 }

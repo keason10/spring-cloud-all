@@ -6,10 +6,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import reactor.core.publisher.Mono;
 
-@Configuration
+//@Configuration
 public class GateWayRouter {
     @Bean
-    public RouteLocator routes(RouteLocatorBuilder builder) {
+    public RouteLocator routes(RouteLocatorBuilder  builder) {
         return builder.routes()
                 .route("rewrite_response_upper", r -> r.host("*.rewriteresponseupper.org")
                         .filters(f -> f.prefixPath("/gateway")
